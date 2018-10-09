@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Diseños de Sitios Web</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Our Custom CSS -->
+    <link href="Content/style4.css" rel="stylesheet" />
+    <!-- Font Awesome JS -->
+    <script defer src="Scripts/solid.js"></script>
+    <script defer src="Scripts/fontawesome.js"></script>
+
+    <!-- DatePiker -->
+    <script src="Scripts/Calendario.js"></script>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark blanco-b">
+        <div class="container-fluid">
+            <div class="row col-12 justify-content-between">
+                <div class="col-4 align-self-center">
+                    <a class="navbar-brand " href="https://www.unad.edu.co/">
+                        <img src="img/logoUNAD2.png" width="300" height="100" class="d-inline-block align-top" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-offset-4 align-self-center ">
+                    <a class="navbar-brand " href="https://academia.unad.edu.co/ecbti">
+                        <img src="img/ECBTI.png" width="800" height="100" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+            </div><!-- Fin Row  -->
+        </div><!-- Fin Container  -->
+    </nav>
+
+    <!-- Inicio del menu lateral -->
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Menú
+                </h3>
+                <strong>MPI </strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                    <li>
+                        <a class="link_option_menu" href="Index.html"><i class="fa fa-location-arrow"></i> &nbsp Inicio</a>
+                    </li>
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-home"></i>
+                            HTML5
+                        </a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="Index.html"><i class="fas fa-address-card "></i> &nbsp XXXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Mision de Trabajo">
+                                        <i class="fas fa-address-card "></i> &nbsp MT
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-archive"></i> &nbsp XXXXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Tipo de Producto">
+                                        <i class="fas fa-archive"></i> &nbsp TP
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-lock"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Clasificación">
+                                        <i class="fas fa-lock"></i>
+                                        &nbsp CL
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-chart-pie"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Actividad">
+                                        <i class="fas fa-chart-pie"></i>
+                                        &nbsp AC
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-clipboard-check"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Ámbito">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        &nbsp AM
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-clipboard-list"></i> &nbsp XXXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Categoría">
+                                        <i class="fas fa-clipboard-list"></i>
+                                        &nbsp CA
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-chalkboard-teacher"></i> &nbsp XXXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Motivación">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        &nbsp MO
+                                    </a>
+                                </strong>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#dataSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-copy"></i>
+                            CSS3
+                        </a>
+                        <ul class="collapse list-unstyled" id="dataSubmenu">
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-calendar-alt"></i> &nbsp FeXXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Fecha Documento">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        &nbsp FD
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-map-marker-alt"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Lugar Documento">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        &nbsp LD
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-map"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Fecha Documento">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        &nbsp UN
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-users"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Grupo">
+                                        <i class="fas fa-users"></i>
+                                        &nbsp GR
+                                    </a>
+                                </strong>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#adjSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-image"></i>
+                            GIT/GITHUB
+                        </a>
+                        <ul class="collapse list-unstyled" id="adjSubmenu">
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-file-audio"></i> &nbsp XXXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Audio">
+                                        <i class="fas fa-file-audio"></i>
+                                        &nbsp AU
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-file-alt"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Documentos">
+                                        <i class="fas fa-file-alt"></i>
+                                        &nbsp DOC
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-file-image "></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Imágenes">
+                                        <i class="fas fa-file-image "></i>
+                                        &nbsp IMG
+                                    </a>
+                                </strong>
+                            </li>
+                            <li class="option_menu">
+                                <a class="link_option_menu" href="#"><i class="fas fa-file-video"></i> &nbsp XXXXX</a>
+                                <strong>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Video">
+                                        <i class="fas fa-file-video"></i>
+                                        &nbsp VID
+                                    </a>
+                                </strong>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="link_option_menu" href="Multimedia.html"><i class="fa fa-location-arrow"></i> &nbsp Multimedia</a>
+                    </li>
+                    <li>
+                        <a class="link_option_menu" href="Autor.html"><i class="glyphicon glyphicon-list-alt"></i> &nbsp Autor</a>
+                    </li>
+                </ul>
+        </nav>
+        <!-- Fin del menu lateral -->
+        <!-- Inicio del Index -->
+        <div id="content">
+
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <div class="alert alert-dark" role="alert">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <H1 style="font-family:Impact">HTML</H1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QC9_8nRNNHA?list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <div class="alert alert-dark" role="alert">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <H1 style="font-family:Impact">CSS</H1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bt70A5Gvqds?list=PLH_tVOsiVGzk4vus80XGsKAW-e0gjOd5x" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del index -->
+    </div>
+
+    <hr />
+    <footer>
+        <p>Copyright &copy; DateTime.Now.Year - UNAD</p>
+    </footer>
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="Scripts/jquery-3.3.1.slim.min.js"></script>
+    <!-- Popper.JS -->
+
+    <script src="Scripts/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+
+        $('#datetimepicker12').datetimepicker({
+            inline: true,
+            sideBySide: true
+        });
+
+
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
